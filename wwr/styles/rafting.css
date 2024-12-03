@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #C03221;
+    --secondary-color: #8CADA7;
+    --third-color: #110b11;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--third-color);
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    color: var(--third-color)
+}
+
+:p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #110b11;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.photo-container {
+    position:relative;
+    display: inline-block;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+
+.heading-container {
+    display:inline-block;
+    padding: 10px 20px;
+    border: 2px solid gray
+    background-color: gray
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white
+    
+}
+
+article { position: absolute;
+}
+
+
+
+
+.nav-menu li{
+   list-style-type: none;
+   display: flex;
+   justify-content: left; 
+}
+
+.nav-menu{
+    color:#110b11
+    font-family: "Noto Sans KR", sans-serif;
+}
