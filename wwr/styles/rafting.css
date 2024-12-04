@@ -11,13 +11,6 @@ h1,h2,h3,h4,h5,h6 {
   color: var(--third-color);
 }
 
-body {
-    width: 1200px;
-    margin: auto;
-    font-family: "Roboto", sans-serif;
-    color: var(--third-color)
-}
-
 :p {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: <weight>;
@@ -25,7 +18,13 @@ body {
     color: #110b11;
 }
 
-a {
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.sociallinks a {
     text-decoration: none; 
 }
 
@@ -74,7 +73,7 @@ article {
     left: 0;
     right:0;
     margin: 0 auto;
-    
+
     
 }
 
