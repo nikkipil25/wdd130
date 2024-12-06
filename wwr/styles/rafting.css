@@ -144,7 +144,7 @@ h2 {
 
 .history img
 {
-    align: top;
+    align-items: center ;
     max-width: 500px;
     max-height:250px;
 }
