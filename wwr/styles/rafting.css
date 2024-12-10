@@ -653,3 +653,8 @@ figure {
     footer nav {
     float: right;
     }
+
+    .footer a{
+        margin-top: 30px;
+        float:left;
+    }
